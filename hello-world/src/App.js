@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Greet from "components/Greet";
+import WelcomeClass from "components/WelcomeClass";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
+            <Greet></Greet>
+            <WelcomeClass></WelcomeClass>
 
             {/* <header className="App-header">
                 <img
