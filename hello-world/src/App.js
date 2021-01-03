@@ -9,12 +9,14 @@ import EventBind from "components/EventBind";
 import ParentComponent from "components/ParentComponent";
 import UserGreeting from "components/UserGreeting";
 import NameList from "components/NameList";
+import StyleSheet from "components/StyleSheet";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
-            <NameList />
+            <StyleSheet />
+            {/* <NameList /> */}
             {/* <UserGreeting /> */}
             {/* <ParentComponent /> */}
             {/* <EventBind /> */}
