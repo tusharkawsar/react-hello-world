@@ -4,13 +4,15 @@ import Greet from "components/Greet";
 import WelcomeClass from "components/WelcomeClass";
 import State from "components/State";
 import Counter from "components/Counter";
+import FunctionClick from "components/FunctionClick";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
+            <FunctionClick />
             {/* <State /> */}
-            <Counter />
+            {/* <Counter /> */}
             {/* <Greet></Greet>
             <WelcomeClass></WelcomeClass> */}
 
