@@ -3,12 +3,14 @@ import "./App.css";
 import Greet from "components/Greet";
 import WelcomeClass from "components/WelcomeClass";
 import State from "components/State";
+import Counter from "components/Counter";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
-            <State />
+            {/* <State /> */}
+            <Counter />
             {/* <Greet></Greet>
             <WelcomeClass></WelcomeClass> */}
 
