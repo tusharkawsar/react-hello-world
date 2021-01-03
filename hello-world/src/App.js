@@ -7,12 +7,14 @@ import Counter from "components/Counter";
 import FunctionClick from "components/FunctionClick";
 import EventBind from "components/EventBind";
 import ParentComponent from "components/ParentComponent";
+import UserGreeting from "components/UserGreeting";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
-            <ParentComponent />
+            <UserGreeting />
+            {/* <ParentComponent /> */}
             {/* <EventBind /> */}
             {/* <FunctionClick /> */}
             {/* <State /> */}
