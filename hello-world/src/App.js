@@ -5,12 +5,14 @@ import WelcomeClass from "components/WelcomeClass";
 import State from "components/State";
 import Counter from "components/Counter";
 import FunctionClick from "components/FunctionClick";
+import EventBind from "components/EventBind";
 
 function App() {
     return (
         <div className="App">
             <h1>Tushar</h1>
-            <FunctionClick />
+            <EventBind />
+            {/* <FunctionClick /> */}
             {/* <State /> */}
             {/* <Counter /> */}
             {/* <Greet></Greet>
