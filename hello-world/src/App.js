@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Greet from "components/Greet";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
+            <h1>Tushar</h1>
+
+            {/* <header className="App-header">
                 <img
                     src={logo}
                     className="App-logo"
@@ -23,7 +26,7 @@ function App() {
                 >
                     Learn React
                 </a>
-            </header>
+            </header> */}
         </div>
     );
 }
