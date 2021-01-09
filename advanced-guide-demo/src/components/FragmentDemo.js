@@ -1,7 +1,7 @@
 import React from "react";
 
 function FragmentDemo() {
-    return <div></div>;
+    return <div>Hello</div>;
 }
 
 export default FragmentDemo;
