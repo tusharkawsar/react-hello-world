@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h1> Tushar </h1>
-                <FragmentDemo />;
+                <FragmentDemo />
             </div>
         );
     }
